@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.div-app{
+    background-color: black;
+  }
+
+  .texto-azul{
+    color: rgb(10, 136, 239);
+  }
+
+  .titulo{
+    font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  }
+
+  .fondo-btn{
+    background-color:rgb(10, 136, 239) ;
+    border: rgb(10, 136, 239);
+  }
+
+  /* CSS MODAL CREATE ACCOUNT */
+  .modal-container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100vw;
+    width: 100vw;
+  }
+
+  .show{
+    pointer-events: auto;
+    display: block;
+  }
+
+  .modal{
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: -50%;
+  }
+
+  /* MODAL SIGN IN IN X */
+  .modal-container2{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100vw;
+    width: 100vw;
+  }
+
+
+  /* MEDIA QUERY PARA PANTALLAS MEDIANAS */
+
+  /* @media screen and (max-width: 800px) {
+    .titulo{
+      width: 30%;
+    }
+    .botones-google{
+      width: 30%;
+    }
+  } */
+
+  /* MEDIA QUERY PARA PANTALLAS PEQUEÑAS */
+/* 
+  @media screen and (max-width: 480px) {
+    .titulo{
+      width: 10%;
+    }
+    .botones-google{
+      width: 20%;
+    }
+  } */
