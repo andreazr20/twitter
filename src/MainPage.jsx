@@ -71,14 +71,30 @@ const MainPage = () => {
         </div>
 
     {/* NAVBAR SUPERIOR */}
-    <div className='bg-black  h-20 fixed ml-[23%] w-full gap-60'>
-        <div className='flex mt-10'>
-            <h3 className='text-white ml-[10%]'><strong>For you</strong></h3>
-            <h3 className='text-gray-400 ml-[25%]'>Following</h3>
+    <div className='bg-black h-20 ml-[23%] w-full gap-60 fixed'>
+        <div className=' flex pt-12 '>
+            <div className='flex border border-b-gray-500  border-t-transparent border-l-transparent border-r-transparent'>
+            <h3 className='text-white ml-[10vw] w-[28vw]'><strong>For you</strong></h3>
+            <h3 className='text-gray-400 w-[10vw]'>Following</h3>
+            </div>
+            
+        
+            <img className='absolute ml-[50vw] mt-[-0.5%]' src={lupa} alt="" />
+            <input type="text" placeholder='              Search' className='w-[22vw] h-12 bg-zinc-800  border rounded-3xl border-zinc-800 mt-[-1.5%] ml-[1vw]' />
+        
         </div>
-        <div className='h-10 w-[30%] relative'>
-            <img className='absolute ml-[153%] mt-[-20%]' src={lupa} alt="" />
-            <input type="text" placeholder='             Search' className='w-[80%] h-12 bg-zinc-800 ml-[150%] border rounded-3xl border-zinc-800 mt-[-150%]' />
+        
+    </div>
+
+
+
+    {/* DIV WHAT'S HAPPENING  */}
+
+
+    {/* DIV SUBSCRIBE TO PREMIUM DEBAJO DE SEARCH  */}
+    <div>
+        <div>
+            <h1 className='text-white pt-20 ml-[50%] fixed'><strong>Subscribe to Premium</strong></h1>
         </div>
     </div>
     </div>
