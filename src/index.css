@@ -43,7 +43,7 @@
 
   .modal{
     background-color: black;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-top: -50%;
   }
 
@@ -61,6 +61,13 @@
     height: 100vw;
     width: 100vw;
   }
+
+  .modal{
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: -50%;
+  }
+  
 
 
   /* MEDIA QUERY PARA PANTALLAS MEDIANAS */
