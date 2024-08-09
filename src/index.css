@@ -3,6 +3,136 @@
 @tailwind utilities;
 
 
+/* MEDIA QUERY PRINCIPAL  */
+@media only screen and (max-width: 768px) {
+  .principal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+    width: 5%;
+  }
+  .principal2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+  .principal3 {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .principal6{
+    width: 190%;
+  }
+  .principal9{
+    width: 93%;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .principal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .principal2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 10px;
+  }
+  .principal3 {
+    width: 90%;
+    margin: 15px auto;
+  }
+  .logo{
+    width: 20%;
+    margin-left: 10%;
+  }
+  .principal6{
+    width: 190%;
+  }
+  .principal9{
+    width: 93%;
+  }
+
+}
+
+/* MEDIA QUERY CREATE ACCOUNT */
+@media only screen and (max-width: 768px) {
+  .create1{
+    width: 100%;
+    height: 7%;
+    font-size: 10px;
+  }
+  .logo{
+    display: none;
+  }
+  .create2{
+    display: none;
+  }
+  .create{
+    width: 50%;
+    height: 40%;
+  }
+  .create4{
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+}
+
+
+/* MEDIA QUERY MAIN PAGE */
+@media only screen and (max-width: 1500px) {
+  .main1{
+    width: 40%;
+    font-size: 10px;
+    height: 70%;
+  }
+  .main1 h1{
+    font-size: 10px;
+  }
+  .main2{
+    height: 400px;
+    font-size: 10px;
+  }
+  .main2 img{
+    width: 40px;
+    height: 40px;
+  }
+  .main2 h2{
+    font-size: 10px;
+  }
+  .main5{
+    display: none;
+  }
+  /* .main3{
+    margin: left -10px;;
+  } */
+}
+
+@media only screen and (max-width: 650px) {
+  .main4{
+    font-size: 10px;
+  }
+  .main4 h3{
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+/* MEDIA QUERY LO QUE SEA */
+/* @media only screen and (max-width: 768px) {
+  
+}
+
+@media only screen and (max-width: 1380px) {
+  
+} */
+
+
 .div-app{
     background-color: black;
   }
