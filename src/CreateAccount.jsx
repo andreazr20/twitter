@@ -46,7 +46,7 @@ return (
             <h2 className='text-white mb-1 mt-2 create2'><strong>Date of birth</strong></h2>
             <p className='text-gray-400 text-left mb-1 mr-[6%] create2'>This will not be shown publicly. onfirm your own age,even if this account is for a business, a pet, or something else.</p>
             <div className='create4'>
-              <input type="date" name='nacimiento' required className='p-2 create2 bg-transparent text-gray-400 border-[1px] border-gray-500 rounded-sm w-[28vw] h-[2vw] mb-2 create1' />
+              <input type="date" name='nacimiento' required className='p-2 create2 bg-transparent text-gray-400 border-[1px] border-gray-500 rounded-sm w-[28vw] h-[2vw] mb-4 create1' />
               <Link onClick={()=>registro(email, password)} to={'/MainPage'} className=' bg-gray-400 p-2 border-none rounded-3xl text-gray-800 pl-[13vw] pr-[13vw] '><strong>Next</strong></Link>
               <button></button>
             </div>
