@@ -43,15 +43,15 @@ const Principal = () => {
         </div>
 
         <div className='principal6'>
-          <button id='container' onClick={() => setEstado(!estado)} className='text-white  w-[50%] h-12 border rounded-3xl mt-4 text-[100%] fondo-btn mb-3' ><strong>Create account</strong></button>
+          <button id='container' onClick={() => setEstado(!estado)} className='text-white  w-[60%] h-12 border rounded-3xl mt-4 text-[80%] fondo-btn mb-3' ><strong>Create account</strong></button>
           {estado && <CreateAccount setEstado={setEstado} estado={estado} />}
         </div>
 
-        <p className='text-gray-500 text-sm mb-16 principal7'>By signing up, you agree to the <span className='texto-azul'>Terms of service</span> and <br /> <span className='texto-azul'>Privacy Policy,</span> including <span className='texto-azul'>Cookie use.</span></p>
+        <p className='text-gray-500 text-sm mb-7 principal7'>By signing up, you agree to the <span className='texto-azul'>Terms of service</span> and <br /> <span className='texto-azul'>Privacy Policy,</span> including <span className='texto-azul'>Cookie use.</span></p>
 
 
-        <h2 className='text-white text-[120%] principal8'><strong>Already have an account?</strong></h2>
-        <button onClick={()=> setBoton(!boton)} className='texto-azul w-[50%] h-12 border rounded-3xl mt-4 text-[100%] principal9'><strong>Sign in</strong></button>
+        <h2 className='text-white text-[100%] principal8'><strong>Already have an account?</strong></h2>
+        <button onClick={()=> setBoton(!boton)} className='texto-azul w-[60%] h-12 border rounded-3xl mt-4 text-[80%] principal9'><strong>Sign in</strong></button>
         {boton && <SignIn setBoton={setBoton} boton={boton} />}
       </div>
     </div>
