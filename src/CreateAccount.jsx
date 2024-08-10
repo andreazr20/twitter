@@ -33,21 +33,21 @@ return (
 
         <div className='flex'>
 
-          <h1 className='font-bolder text-white text-[210%] mb-[2vw] ml-7 create1'><strong>Create your account</strong></h1>
+          <h1 className='font-bolder text-white text-[130%] mb-[2vw] ml-7 create1'><strong>Create your account</strong></h1>
         </div>
 
         <form action="" method="post" className='create1'>
-          <input type="text" name='name' placeholder='Name' required className='bg-transparent create1 border-[1px] border-gray-500 rounded-sm p-6 w-[28vw] mb-2 ml-[1.5vw]' /><br />
-          <input type="text" name='email' placeholder='Email' onChange={(e)=> setEmail(e.target.value)} autoComplete='off' required className='bg-transparent create1 border-[1px] border-gray-500 rounded-sm p-6 w-[28vw] mb-2 ml-[1.5vw]' />
-          <input type="text" name='password' placeholder='Password' autoComplete='off' required onChange={(e)=> setPasword(e.target.value)} className='bg-transparent create1 border-[1px] border-gray-500 rounded-sm p-6 w-[28vw] mb-3 ml-[1.5vw]' />
+          <input type="text" name='name' placeholder='Name' required className='bg-transparent create1 border-[1px] border-gray-500 rounded-sm p-2 w-[28vw] mb-2 ml-[1.5vw]' /><br />
+          <input type="text" name='email' placeholder='Email' onChange={(e)=> setEmail(e.target.value)} autoComplete='off' required className='bg-transparent create1 border-[1px] border-gray-500 rounded-sm p-2 w-[28vw] mb-2 ml-[1.5vw]' />
+          <input type="text" name='password' placeholder='Password' autoComplete='off' required onChange={(e)=> setPasword(e.target.value)} className='bg-transparent create1 border-[1px] border-gray-500 rounded-sm p-2 w-[28vw] mb-3 ml-[1.5vw]' />
           <h2><span className='texto-azul ml-[68%] create2'>Use email instead</span></h2>
 
           <div className='ml-[1.5vw]'>
-            <h2 className='text-white mb-3 mt-6 create2'><strong>Date of birth</strong></h2>
-            <p className='text-gray-400 text-left mb-5 mr-[6%] create2'>This will not be shown publicly. onfirm your own age,even if this account is for a business, a pet, or something else.</p>
+            <h2 className='text-white mb-1 mt-2 create2'><strong>Date of birth</strong></h2>
+            <p className='text-gray-400 text-left mb-1 mr-[6%] create2'>This will not be shown publicly. onfirm your own age,even if this account is for a business, a pet, or something else.</p>
             <div className='create4'>
-              <input type="date" name='nacimiento' required className='p-4 create2 bg-transparent text-gray-400 border-[1px] border-gray-500 rounded-sm w-[28vw] h-[4vw] mb-10 create1' />
-              <Link onClick={()=>registro(email, password)} to={'/MainPage'} className=' bg-gray-400 p-4 border-none rounded-3xl text-gray-800 pl-[13vw] pr-[13vw] '><strong>Next</strong></Link>
+              <input type="date" name='nacimiento' required className='p-2 create2 bg-transparent text-gray-400 border-[1px] border-gray-500 rounded-sm w-[28vw] h-[2vw] mb-2 create1' />
+              <Link onClick={()=>registro(email, password)} to={'/MainPage'} className=' bg-gray-400 p-2 border-none rounded-3xl text-gray-800 pl-[13vw] pr-[13vw] '><strong>Next</strong></Link>
               <button></button>
             </div>
           </div>
