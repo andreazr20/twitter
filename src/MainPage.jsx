@@ -93,7 +93,7 @@ const [tweetVisible, setTweetVisible] = useState(true);
                 <h3 className='text-white mt-[7%] ml-[3%] mb-[9%] text-lg'><strong>More</strong></h3>
             </div>
 
-            <button onClick={() => setEstado(!estado)} className='fondo-btn text-white w-[55%] ml-[29%] mt-[5%] border rounded-3xl h-12'><strong>Post</strong></button>
+            <button onClick={() => setEstado(!estado)} className='fondo-btn text-white w-[55%] ml-[29%] mt-[1%] border rounded-3xl h-12'><strong>Post</strong></button>
                
             
            
