@@ -93,17 +93,17 @@ const [tweetVisible, setTweetVisible] = useState(true);
                 <h3 className='text-white mt-[7%] ml-[3%] mb-[9%] text-lg'><strong>More</strong></h3>
             </div>
 
-            <button onClick={() => setEstado(!estado)} className='fondo-btn text-white w-[55%] ml-[29%] mt-[1%] border rounded-3xl h-12'><strong>Post</strong></button>
+            <button onClick={() => setEstado(!estado)} className='fondo-btn text-white w-[55%] ml-[29%] border rounded-3xl h-12'><strong>Post</strong></button>
                
             
            
 
             <div className='flex'>
-                <div className='relative ml-[29%] mt-[10%] pb-[10%]'> 
+                <div className='relative ml-[29%] mt-[5%] pb-[10%]'> 
                     <img className='w-[92%] absolute' src={circuloverde} alt="" />
                     <h3 className='text-white relative ml-5 mr-5 mt-2 text-lg'><strong>a</strong></h3>
                 </div>
-                <div className='mt-10'>
+                <div className='mt-5'>
                     <h3 className='text-white'><strong>andrea zarate</strong></h3>
                     <h3 className='text-white'>@andreazara87326</h3>
                 </div>
