@@ -132,8 +132,8 @@ const [tweetVisible, setTweetVisible] = useState(true);
     <div className='border border-slate-700 border-b-[0.1vw] max-w-[66vw] border-r-[0.1vw]'>
     <div className='flex bg-black'>
         <div className='relative'>
-            <img className='w-[3vw] ml-[25vw] mt-[6vw]' src={circuloverde} alt="" />
-            <h3 className='relative text-white ml-[26.2vw] mt-[-3.3vw] text-[1vw]'><strong>a</strong></h3>
+            <img className='w-[3vw] ml-[25vw] mt-[5.5vw]' src={circuloverde} alt="" />
+            <h3 className='relative text-white ml-[26.2vw] mt-[-2.7vw] text-[1vw]'><strong>a</strong></h3>
         </div>
         <div className='relative'>
             <input value={message} onChange={(e) => setMessage(e.target.value)} type='text' className='text-[1vw] absolute mt-[6vw] border border-black  ml-[1vw] text-gray-400 bg-black'  placeholder='What is happening!?' />
