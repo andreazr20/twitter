@@ -121,7 +121,7 @@ const MainPage = () => {
 
 
                     <img className='absolute ml-[46vw] mt-[-0.7%]' src={lupa} alt="" />
-                    <input type="text" placeholder='              Search' className='mb-3 w-[22vw] h-12 bg-zinc-800  rounded-3xl mt-[-1.5%] ml-[2vw]' />
+                    <input type="text" placeholder='              Search' className='w-[22vw] h-12 bg-zinc-800  rounded-3xl mt-[-1.5%] ml-[2vw]' />
                 </div>
 
             </div>
@@ -153,7 +153,7 @@ const MainPage = () => {
 
 
                     <div className='flex ml-[10vw]'>
-                        <button onClick={handleSubmit} className='fondo-btn text-white ml-[7vw] w-[5vw] border rounded-3xl mt-[3vw]  mb-[1vw] '><strong>Post</strong></button>
+                        <button onClick={handleSubmit} className='fondo-btn text-white ml-[7vw] w-[5vw] border rounded-3xl mt-[8vw]  mb-[1vw] '><strong>Post</strong></button>
                         <h2 className='text-blue-400 ml-[-28.5vw] mt-[11vw] h-[4vw] pt-4 pl-[21vw] border border-t-gray-500 border-b-gray-500 border-l-gray-500 border-r-gray-500  fixed w-[66vw] bg-black main3'>Show 35 post</h2>
 
                     </div>

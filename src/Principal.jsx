@@ -17,12 +17,12 @@ const Principal = () => {
     <div className='flex bg-black principal'>
       {/* PÁGINA PRINCIPAL CON LOG IN DE GOOGLE Y FB */}
       <div className='mt-[10%] ml-[15%] mr-[11%]'>
-        <img className='w-[80%] logo' src={logo} alt="" />
+        <img className='w-[65%] logo' src={logo} alt="" />
       </div>
 
       <div className='mt-[6%] mb-[8%] principal2'>
-        <h1 className='titulo text-[600%] text-white mb-[5%]'>Hapening now</h1>
-        <h2 className='titulo text-[170%] mb-[4%] text-white' >Join today.</h2>
+        <h1 className='titulo text-[500%] text-white mb-[5%]'>Hapening now</h1>
+        <h2 className='titulo text-[120%] mb-[4%] text-white' >Join today.</h2>
 
 
         <div className='bg-white relative w-[50%] h-12 border rounded-3xl principal3'>
