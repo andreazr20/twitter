@@ -181,7 +181,7 @@ const [tweetVisible, setTweetVisible] = useState(true);
                             <h3 className='ml-9 text-gray-400 mt-[-1vw]'>{post.arroba}</h3>
                             <div className='flex'>
                             <p className='text-white ml-[-6vw]'>{post.message}</p>
-                            <svg id='boton1' onClick={handleButtonClick} xmlns="http://www.w3.org/2000/svg" className='fill-gray-500 w-[1vw] ml-[20vw] fixed' viewBox="0 0 448 512"><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></svg>
+                            <svg id='boton1' onClick={handleButtonClick} xmlns="http://www.w3.org/2000/svg" className='fill-gray-500 w-[1vw] ml-[27vw] fixed' viewBox="0 0 448 512"><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></svg>
                             
 
                                     {/* LISTA BOTON ELIMINAR */}
